@@ -9,7 +9,7 @@ namespace Test
     {
         static void Main()
         {
-            SqlSugarCore.CreateModel("Server=localhost;Port=54321;UID=system;PWD=abcde12345!;database=test;", "Job",SqlSugar.DbType.Kdbndp);
+            //SqlSugarCore.CreateModel("Server=localhost;Port=54321;UID=system;PWD=abcde12345!;database=test;", "Job",SqlSugar.DbType.Kdbndp);
         }
     }
 }
