@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Test</name>
+    </assembly>
+    <members>
+        <member name="T:Test.KingBase.DbHelperKingBase">
+            <summary>
+            DbHelperKingBase
+            </summary>
+        </member>
+        <member name="M:Test.KingBase.DbHelperKingBase.RunProcedure(System.String,System.Data.IDataParameter[])">
+            <summary>
+            执行函数
+            </summary>
+            <param name="procedurename">函数名</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.KingBase.DbHelperKingBase.RunProcedure(System.String,System.Data.IDataParameter[],System.Int32@)">
+            <summary>
+            执行SQL语句
+            </summary>
+            <param name="storedProcName">SQL语句</param>
+            <param name="parameters">参数</param>
+            <param name="rowsAffected">影响行数</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="T:Test.TestAttribute.MySpecialAttribute">
+            <summary>
+            特性
+            </summary>
+        </member>
+        <member name="M:Test.TestAttribute.MySpecialAttribute.#ctor(System.String,System.Double)">
+            <summary>
+            构造方法初始化
+            </summary>
+            <param name="DisplayName">显示名称</param>
+            <param name="DisplayVersion">显示宽度</param>
+        </member>
+        <member name="P:Test.TestAttribute.MySpecialAttribute.DisplayName">
+            <summary>
+            显示名称
+            </summary>
+        </member>
+        <member name="P:Test.TestAttribute.MySpecialAttribute.DisplayVersion">
+            <summary>
+            显示宽度
+            </summary>
+        </member>
+        <member name="T:Test.TestAttribute.TestSystem">
+            <summary>
+            系统类
+            </summary>
+        </member>
+        <member name="P:Test.TestAttribute.TestSystem.Linux">
+            <summary>
+            系统L
+            </summary>
+        </member>
+        <member name="P:Test.TestAttribute.TestSystem.Windows">
+            <summary>
+            系统W
+            </summary>
+        </member>
+        <member name="P:Test.TestAttribute.TestSystem.Port">
+            <summary>
+            数字
+            </summary>
+        </member>
+        <member name="P:Test.TestAttribute.TestSystem.Isolated">
+            <summary>
+            布尔
+            </summary>
+        </member>
+        <member name="P:Test.TestAttribute.TestSystem.SystemEnum">
+            <summary>
+            枚举
+            </summary>
+        </member>
+        <member name="M:Test.TestAttribute.TestSystem.TestAttribute">
+            <summary>
+            特性-获取对象特性信息
+            </summary>
+        </member>
+        <member name="M:Test.TestAttribute.TestSystem.TestMapSystem``1(``0)">
+            <summary>
+            获取对象信息
+            </summary>
+        </member>
+        <member name="M:Test.TestAttribute.TestSystem.GetSummary``1">
+            <summary>
+            获取某类中字段的summary注释
+            </summary>
+        </member>
+        <member name="M:Test.TestAttribute.TestSystem.TestEnum">
+            <summary>
+            枚举-循环所有枚举
+            </summary>
+        </member>
+        <member name="T:Test.TestAttribute.TestSystemEnum">
+            <summary>
+            枚举类
+            </summary>
+        </member>
+        <member name="F:Test.TestAttribute.TestSystemEnum.Linux">
+            <summary>
+            枚举L
+            </summary>
+        </member>
+        <member name="F:Test.TestAttribute.TestSystemEnum.Windows">
+            <summary>
+            枚举W
+            </summary>
+        </member>
+        <member name="T:Test.TestDataBase.SqlSugarCore">
+            <summary>
+            SqlSugar类
+            </summary>
+        </member>
+        <member name="M:Test.TestDataBase.SqlSugarCore.CreateModel(System.String,System.String,SqlSugar.DbType,System.String,System.String)">
+            <summary>
+            创建实体类
+            </summary>
+            <param name="conn">数据库连接字符串</param>
+            <param name="url">绝对路径</param>
+            <param name="name">命名空间</param>
+            <param name="model">表名(默认全部表)</param>
+        </member>
+        <member name="T:Test.TestWebSocket.WebSocketClient">
+            <summary>
+            WebSocket类
+            </summary>
+        </member>
+        <member name="M:Test.TestWebSocket.WebSocketClient.Connect(System.String)">
+            <summary>
+            连接
+            </summary>
+            <param name="url">ws://localhost:44330/</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
